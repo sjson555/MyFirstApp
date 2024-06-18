@@ -14,8 +14,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var mainLabel: UILabel!
     
     
+    @IBOutlet weak var myButton: UIButton!
+    
+    
     // 지울때 코드만 지우면 되는게 아님
-    // 왼쪽 viewcontroller 에서 지우고 싶은 곳 우클릭 후 연결 해제
+    // 왼쪽 스토리보드에서 지우고 싶은 곳 우클릭 후 연결 해제
     // @IBOutlet weak var aaa: UILabel!
     
     
@@ -31,7 +34,8 @@ class ViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: UIButton) {
         
         mainLabel.text = "안녕하세요"
-        
+//        myButton.backgroundColor = UIColor.black
+//        myButton.setTitleColor(.blue, for: UIControl.State.normal)
 //        mainLabel.backgroundColor = UIColor.yellow
 
     }
